@@ -12,6 +12,6 @@ export const removeFilter = (filter) => ({
   filter,
 });
 
-export const clearFiltert = {
-  type: REMOVE_FILTER,
+export const clearFilter = {
+  type: CLEAR_FILTER,
 };
