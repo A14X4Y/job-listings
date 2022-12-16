@@ -8,7 +8,7 @@ export const selectVisiblePositions = (state, filters = []) => {
       pos.role,
       pos.level,
       ...pos.languages,
-      ...pos.toolsm 
+      ...pos.tools
     );
     return filters.every((filter) => posFilter.includes(filter));
   });
